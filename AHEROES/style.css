@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+ 
+body{
+    background-color: rgb(27, 27, 27);
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+ header {
+     text-align:center;
+     padding: 20px;
+ }
+ h1 {
+    font-family: 'Press Start 2P' , cursive;
+    color:blueviolet;
+    font-size: 2.5em;
+}
+
+.character-select {
+display: flex;
+justify-content: center;
+flex-wrap:wrap;
+gap: 30px;
+}
+
+.character-card {
+background-color:rgb(0, 0, 0);
+width: 250px;
+border: 3px;
+border-radius: 10px;
+padding: 15px;
+text-align: center;
+box-shadow: 0 4px 8px brown;
+transition: all 0.3s ease-in-out;
+}
+.character-card img {
+width: 100%;
+height: 200px;
+object-fit:cover;
+border-radius: 5px;
+border: 2px solid aqua;
+
+}
+.character-card h2 {
+color:blueviolet;
+font-size: 1.5em;
+margin-top: 10px;
+
+}
+
+.character-card p {
+font-size: 0.9em;
+color:rgb(101, 0, 216);
+
+}
+.character-card:hover {
+transform: scale(1.05);
+border-color: coral;
+box-shadow: 0 0 20px blue;
+cursor: pointer;
+
+}
+#warrior:hover {
+box-shadow: 0 0 20px brown;
+border-color: darkcyan;
+
+}
+#mage:hover {
+box-shadow: 0 0 20px bisque;
+border-color:aquamarine;
+
+}
+
+#archer:hover {
+box-shadow: 0 0 20px rebeccapurple;
+border-color: darkorange;
+
+}
+
+
